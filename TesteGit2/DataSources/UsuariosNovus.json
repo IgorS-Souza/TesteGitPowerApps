@@ -1,0 +1,127 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crad8_usuariosnovuses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crad8_usuariosnovus",
+    "MaxGetRowsCount": 500,
+    "Name": "UsuariosNovus",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crad8_add_by": "Add_By",
+      "crad8_cargo": "Cargo",
+      "crad8_comite": "Comite",
+      "crad8_email": "Email",
+      "crad8_lingua": "Lingua",
+      "crad8_linguagem": "Linguagem",
+      "crad8_login": "Login",
+      "crad8_mercado": "Mercado",
+      "crad8_nome": "Nome",
+      "crad8_senha": "Senha",
+      "crad8_setor": "Setor",
+      "crad8_usuariosnovus_AsyncOperations": "System Jobs",
+      "crad8_usuariosnovus_BulkDeleteFailures": "Bulk Delete Failures",
+      "crad8_usuariosnovus_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crad8_usuariosnovus_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crad8_usuariosnovus_ProcessSession": "Process Sessions",
+      "crad8_usuariosnovus_SyncErrors": "Sync Errors",
+      "crad8_usuariosnovusid": "UsuariosNovus",
+      "crad8_verilogin": "VeriLogin",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "UsuariosNovus",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "UsuariosNovus (Modos de exibição)",
+    "Name": "_crad8_usuariosnovus_views",
+    "RelatedEntityName": "UsuariosNovus",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "14f08182-60e8-4261-b805-00eaf28406e2": "UsuariosNovus Associated View",
+      "b546308f-3ac9-4633-bb43-911030b347ac": "UsuariosNovus Lookup View",
+      "bac4d253-98ec-484a-b640-22053826e109": "Active UsuariosNovuses",
+      "ca59b61f-dc37-4f72-8e02-2d1a3cb90bef": "UsuariosNovus Advanced Find View",
+      "cfa1709d-4eb4-4477-b7f3-6c9db67f74be": "Inactive UsuariosNovuses"
+    }
+  },
+  {
+    "DisplayName": "Linguagens",
+    "Name": "crad8_linguagens",
+    "OptionSetInfoNameMapping": {
+      "683510000": "Português",
+      "683510001": "Espanhol",
+      "683510002": "Inglês"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crad8_lingua",
+        "OptionSetReferenceEntityName": "UsuariosNovus"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crad8_lingua",
+    "RelatedEntityName": "UsuariosNovus",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (UsuariosNovus)",
+    "Name": "crad8_usuariosnovus_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "UsuariosNovus"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "UsuariosNovus",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (UsuariosNovus)",
+    "Name": "crad8_usuariosnovus_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "UsuariosNovus"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "UsuariosNovus",
+    "Type": "OptionSetInfo"
+  }
+]
