@@ -2,7 +2,18 @@ Screen1 As screen:
 
     Button1 As button:
         Text: ="Botão"
-        X: =636
-        Y: =376
+        X: =596
+        Y: =373
         ZIndex: =1
 
+    Button1_1 As button:
+        Text: ="Botão"
+        X: =204
+        Y: =204
+        ZIndex: =2
+
+    Button1_2 As button:
+        Text: ="Botão"
+        X: =988
+        Y: =204
+        ZIndex: =3
