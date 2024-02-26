@@ -56,6 +56,7 @@
     "Form1": 39,
     "galleryTemplate1": 23,
     "Host": 3,
+    "Label1": 100,
     "Lingua_DataCard1": 95,
     "Linguagem_DataCard1": 90,
     "Login_DataCard1": 65,
@@ -103,7 +104,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/26/2024 18:06:05",
+  "HeaderLastSavedDateTimeUTC": "02/26/2024 18:38:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -189,6 +190,7 @@
     "Form1": {},
     "galleryTemplate1": {},
     "Host": {},
+    "Label1": {},
     "Lingua_DataCard1": {},
     "Linguagem_DataCard1": {},
     "Login_DataCard1": {},
@@ -291,6 +293,7 @@
     "Form1": 34,
     "galleryTemplate1": 18,
     "Host": 0,
+    "Label1": 0,
     "Lingua_DataCard1": 90,
     "Linguagem_DataCard1": 85,
     "Login_DataCard1": 60,
@@ -340,7 +343,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.7643737,
+    "AnalysisLoadTime": 0.8421972,
     "ControlCount": {
       "button": 2,
       "combobox": 1,
@@ -355,7 +358,7 @@
       "text": 12,
       "typedDataCard": 12
     },
-    "DeserializationLoadTime": 1.3596374
+    "DeserializationLoadTime": 1.3311805
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

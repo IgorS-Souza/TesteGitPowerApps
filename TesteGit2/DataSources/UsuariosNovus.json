@@ -6,6 +6,7 @@
     "IsSampleData": false,
     "IsWritable": true,
     "LogicalName": "crad8_usuariosnovus",
+    "MaxGetRowsCount": 500,
     "Name": "UsuariosNovus",
     "NativeCDSDataSourceInfoNameMapping": {
       "_ownerid_value": "Owner",

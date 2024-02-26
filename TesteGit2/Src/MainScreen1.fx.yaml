@@ -44,6 +44,19 @@
                 Text: =DataSourceInfo([@UsuariosNovus], DataSourceInfo.DisplayName)
                 ZIndex: =3
 
+            Label1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Size: =13
+                Text: ="Texto"
+                ZIndex: =4
+
         BodyContainer1 As groupContainer.horizontalAutoLayoutContainer:
             LayoutGap: =16
             LayoutMinHeight: =100
