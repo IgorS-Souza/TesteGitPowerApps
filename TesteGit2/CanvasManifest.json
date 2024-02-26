@@ -117,13 +117,13 @@
     "Id": "577ec905-eb2c-4e73-8f18-41228d18b592",
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
-    "Name": "TesteGit (Prod)",
+    "Name": "TesteGit2(DEV)",
     "OriginatingVersion": "1.337",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "TesteGit (Prod)",
+    "AppName": "TesteGit2(DEV)",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
