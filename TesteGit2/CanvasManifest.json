@@ -123,7 +123,7 @@
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "TesteGit2(DEV)",
+    "AppName": "TesteGit (Prod)",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
