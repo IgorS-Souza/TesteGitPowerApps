@@ -54,7 +54,9 @@
                 FocusedBorderThickness: =4
                 Font: =Font.'Segoe UI'
                 Size: =13
-                Text: ="aaaaaa"
+                Text: |-
+                    ="bbbbbbb
+                    "
                 ZIndex: =4
 
         BodyContainer1 As groupContainer.horizontalAutoLayoutContainer:
