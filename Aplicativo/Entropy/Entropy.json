@@ -4,12 +4,14 @@
   "ControlUniqueIds": {
     "App": 1,
     "Button1": 5,
+    "Button1_1": 6,
+    "Button1_2": 7,
     "Host": 3,
     "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/26/2024 20:59:56",
+  "HeaderLastSavedDateTimeUTC": "02/26/2024 21:10:35",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": true,
@@ -27,6 +29,8 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "Button1": {},
+    "Button1_1": {},
+    "Button1_2": {},
     "Host": {},
     "Screen1": {}
   },
@@ -35,6 +39,8 @@
   "PublishOrderIndices": {
     "App": 0,
     "Button1": 0,
+    "Button1_1": 0,
+    "Button1_2": 0,
     "Host": 0,
     "Screen1": 0
   },
@@ -43,7 +49,9 @@
   "TemplateVersions": {},
   "VolatileProperties": {
     "AnalysisLoadTime": 0.0265387,
-    "ControlCount": {}
+    "ControlCount": {
+      "button": 2
+    }
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
