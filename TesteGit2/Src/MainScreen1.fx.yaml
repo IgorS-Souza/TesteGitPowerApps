@@ -42,7 +42,7 @@
                 PaddingTop: =16
                 Size: =16
                 Text: =DataSourceInfo([@UsuariosNovus], DataSourceInfo.DisplayName)
-                ZIndex: =3
+                ZIndex: =1
 
             Button1 As button:
                 BorderColor: =RGBA(0, 0, 0, 0)
@@ -67,7 +67,20 @@
                 Text: |-
                     ="Teste
                     "
-                ZIndex: =4
+                ZIndex: =2
+
+            Label1 As label:
+                BorderColor: =RGBA(0, 0, 0, 0)
+                BorderStyle: =BorderStyle.None
+                BorderThickness: =2
+                Color: =RGBA(50, 49, 48, 1)
+                DisabledBorderColor: =RGBA(0, 0, 0, 0)
+                DisabledColor: =RGBA(161, 159, 157, 1)
+                FocusedBorderThickness: =4
+                Font: =Font.'Segoe UI'
+                Size: =13
+                Text: ="teste2"
+                ZIndex: =3
 
         BodyContainer1 As groupContainer.horizontalAutoLayoutContainer:
             LayoutGap: =16

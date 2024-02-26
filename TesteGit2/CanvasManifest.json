@@ -98,7 +98,7 @@
       "usenonblockingonstartrule": true,
       "userdefinedfunctions": false,
       "webbarcodescanner": false,
-      "zeroalltabindexes": true
+      "zeroalltabindexes": false
     },
     "Author": "",
     "BindingErrorCount": 0,
@@ -116,7 +116,7 @@
     "FileID": "914cc6bb-0474-4363-870c-bcd36cc257c1",
     "Id": "914cc6bb-0474-4363-870c-bcd36cc257c1",
     "InstrumentationKey": "",
-    "ManualOfflineProfileId": null,
+    "ManualOfflineProfileId": "",
     "Name": "TesteGit2(DEV)",
     "OriginatingVersion": "1.337",
     "ParserErrorCount": 0,
